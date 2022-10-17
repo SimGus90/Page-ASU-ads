@@ -9,7 +9,7 @@ main {
     color: rgb(150, 150, 150);
 }
 footer{
-    background-color: black;
+    background-color: rgb(8, 8, 17);
     padding-bottom: 20px;
 }
 h1 {
@@ -51,7 +51,8 @@ section{
 }
 /*подключаем картинку для шапки*/
 header {
-    background: url('https://d626yq9e83zk1.cloudfront.net/files/2017/12/26-770x425.jpg') bottom center no-repeat;
+
+    background: url('img/head-img.jpeg') bottom center no-repeat;
     background-size: 100%;
     width: 100%;
     height: 200px;
