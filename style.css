@@ -1,0 +1,109 @@
+/*правило для элементов main*/
+main {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+/*правило для элементов относящихся к классу a_footer*/
+.a_footer {
+    display: block;
+    color: rgb(150, 150, 150);
+}
+footer{
+    background-color: black;
+    padding-bottom: 20px;
+}
+h1 {
+    font-family:'Franklin Gothic Medium';
+    padding: 30px 20px 0px 20px;
+    text-align: center;
+    
+}
+h2 {
+    font-family:'Franklin Gothic Medium';
+    padding: 20px 0px 10px 0px;
+    text-align: center;
+}
+p{
+    font-family: 'Noto Sans';
+    padding: 0% 5% 0% 5%;
+    text-align: justify;
+    color: rgb(70, 70, 70);
+
+}
+h3{
+    font-size:small;
+    font-family: 'Noto Sans';
+    padding: 0% 5% 0% 5%;
+    text-align: center;
+    color: white;
+}
+ul{
+    font-family:'Noto Sans';
+    color: rgb(70, 70, 70);
+    display: table;
+    margin: 0px auto 20px auto;
+    text-align: left;
+    list-style-position: outside;
+}
+section{
+    max-width: 1400px;
+    margin: auto;
+}
+/*подключаем картинку для шапки*/
+header {
+    background: url('https://d626yq9e83zk1.cloudfront.net/files/2017/12/26-770x425.jpg') bottom center no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 200px;
+    color: white;
+    text-align: center;
+}
+@media (max-width: 450px) {
+    header{
+        visibility: hidden;
+    }
+}
+adress {
+    text-align: center;
+}
+.flex__ul{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 0% 0% 0% 150px;
+}   
+.flex__item{
+    flex-basis: 300px;
+    flex-grow: 0;
+    margin: 0px auto 20px auto;
+    font-family: 'Noto Sans';
+    text-align: left;
+    list-style-position:outside;
+}
+.flex__ul2{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}   
+.flex__item2{
+    flex-basis: 300px;
+    flex-grow: 0;
+    margin: 0px auto 20px auto;
+    font-family: 'Noto Sans';
+    text-align: left;
+    list-style-position:outside;
+    padding: 20px;
+    border: 1px solid gray;
+    text-shadow: 1px 1px 2px rgb(200, 200, 200);
+    font-style: italic;
+}
+
+body{
+    font-family: 'Century', Times, serif;
+}
+aside{
+    display: flex;  
+    justify-content: center;  
+    align-items: center;
+    padding-bottom: 15px;
+}
