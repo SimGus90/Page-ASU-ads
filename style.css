@@ -52,7 +52,8 @@ section{
 /*подключаем картинку для шапки*/
 header {
     /*<base href="https://SimGus90.github.io/Page-ASU-ads/">*/
-    background: url("img/head.jpg") bottom center no-repeat;
+    /*<base href="https://github.com/SimGus90/Page-ASU-ads/blob/main/">*/
+    background: url('https://github.com/SimGus90/Page-ASU-ads/blob/main/img/head.jpg?raw=true') bottom center no-repeat;
     background-size: 100%;
     width: 100%;
     height: 200px;
