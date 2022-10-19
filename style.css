@@ -16,11 +16,10 @@ h1 {
     font-family:'Franklin Gothic Medium';
     padding: 30px 20px 0px 20px;
     text-align: center;
-    
 }
 h2 {
     font-family:'Franklin Gothic Medium';
-    padding: 20px 0px 10px 0px;
+    padding: 20px 20px 10px 20px;
     text-align: center;
 }
 h3{
@@ -35,13 +34,13 @@ p{
     padding: 0% 5% 0% 5%;
     text-align: justify;
     color: rgb(70, 70, 70);
-
 }
 ul{
     font-family:'Noto Sans';
     color: rgb(70, 70, 70);
-    display: table;
-    margin: 0px auto 20px auto;
+    display: table;   
+    margin: 0 auto 0 auto;
+    align-self: center;
     text-align: left;
     list-style-position: outside;
 }
@@ -57,11 +56,6 @@ header {
     height: 200px;
     color: white;
     text-align: center;
-}
-@media (max-width: 450px) {
-    header{
-        visibility: hidden;
-    }
 }
 adress {
     text-align: center;
