@@ -72,10 +72,10 @@
 }
 
 .ul-vars-of-professions{
+    padding-left: 90px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    padding-left: 15%;
 }   
 .ul-vars-of-professions-item{
     flex-basis: 300px;
@@ -86,7 +86,7 @@
 }
 
 .ul-reviews{
-    padding-right: 20px;
+    padding-right: 30px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -104,7 +104,7 @@
 }
 
 .ul-licenses{
-    padding-right: 20px;
+    padding-right: 30px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -126,14 +126,14 @@
 }
 
 .ul-navbar{
-    padding-right: 20px;
+    padding-right: 30px;
     margin: auto;
 }
 
 .navbar-item{
     display: inline-block;
     padding: 10px 20px;
-    margin: 0px auto 0px auto;
+
 }
 .nav-link-idle{
     font-family: 'Noto Sans';
