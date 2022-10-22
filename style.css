@@ -86,7 +86,7 @@
 }
 
 .ul-reviews{
-    padding-right: 3%;
+    padding-right: 20px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -104,7 +104,7 @@
 }
 
 .ul-licenses{
-    padding-right: 3%;
+    padding-right: 20px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -126,11 +126,8 @@
 }
 
 .ul-navbar{
-    padding-right: 3%;
+    padding-right: 20px;
     margin: auto;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
 }
 
 .navbar-item{
